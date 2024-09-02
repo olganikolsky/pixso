@@ -39,6 +39,7 @@ body {
 }
 
 .head2 {
+    display: flex;
     margin: 0;
     color: rgb(28, 35, 43);
     font-family: "Fraunces", system-ui;
@@ -48,6 +49,41 @@ body {
         "SOFT" 0,
         "WONK" 0;
     line-height: 32px;
-    }
+}
+
+.description1 {
+    color: rgb(108, 114, 137);
+    font-family: "Montserrat";
+    src: url(url(fonts/static/Montserrat-Medium.ttf));
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.now {
+    color: rgb(61, 129, 104);
+    font-family: "Fraunces", system-ui;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+        "SOFT" 0,
+        "WONK" 0;
+    line-height: 32px;
+}
+
+.button {
+    position: absolute;
+    top: 370px;
+    left: 332px;
+    width: 236px;
+    height: 48px;
+    src: url(url(fonts/static/Montserrat-Medium.ttf));
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    background-color: rgb(61, 129, 104);
+    border-radius: 8px;
+    border: 0;
+}
     
     
