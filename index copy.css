@@ -1,3 +1,6 @@
+:root
+
+
 body {
     background-color: rgb(242, 234, 226)
 }
@@ -10,7 +13,6 @@ body {
     left: 420px;
     background-color: white;
     border-radius: 20px;
-    position: relative;
 }
 
 .img {display: flex;
@@ -30,7 +32,7 @@ body {
 
 .head1{
     margin: 0;
-    color: black;
+    color: rgb(108, 114, 137);
     font-family: "Montserrat";
     src: url(url(fonts/static/Montserrat-Medium.ttf));
     font-weight: 500;
@@ -63,7 +65,7 @@ body {
 
 .price {
     display: flex;
-    margin-right: 19px;
+    align-items: center;
 }
 
 .now {
@@ -75,6 +77,7 @@ body {
         "SOFT" 0,
         "WONK" 0;
     line-height: 32px;
+    padding-right: 19px;
 }
 
 .before {
@@ -86,15 +89,17 @@ body {
         "SOFT" 0,
         "WONK" 0;
     line-height: 23px;
+    text-decoration: line-through;
 }
 
 .button {
-    position: absolute;
-    top: 370px;
-    left: 332px;
+    display: flex;
+    align-items: center;
+    padding: 15px 62px;
     width: 236px;
     height: 48px;
-    src: url(url(fonts/static/Montserrat-Medium.ttf));
+    font-family: "Montserrat";
+    src: url(fonts/static/Montserrat-Medium.ttf);
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
@@ -102,8 +107,6 @@ body {
     border-radius: 8px;
     border: 0;
     color: white;
-    align-items: center;
-    justify-content: center;
 }
     
     
