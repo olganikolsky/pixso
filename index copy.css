@@ -25,6 +25,7 @@ body {
     padding: 0;
     width: 237px;
     height: 386px;
+    flex-direction: column;
 }
 
 .head1{
@@ -60,6 +61,11 @@ body {
     line-height: 23px;
 }
 
+.price {
+    display: flex;
+    margin-right: 19px;
+}
+
 .now {
     color: rgb(61, 129, 104);
     font-family: "Fraunces", system-ui;
@@ -69,6 +75,17 @@ body {
         "SOFT" 0,
         "WONK" 0;
     line-height: 32px;
+}
+
+.before {
+    color: rgb(108, 114, 137);
+    font-family: "Fraunces", system-ui;
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+        "SOFT" 0,
+        "WONK" 0;
+    line-height: 23px;
 }
 
 .button {
@@ -84,6 +101,9 @@ body {
     background-color: rgb(61, 129, 104);
     border-radius: 8px;
     border: 0;
+    color: white;
+    align-items: center;
+    justify-content: center;
 }
     
     

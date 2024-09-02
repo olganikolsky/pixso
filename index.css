@@ -31,6 +31,8 @@ body {
 .head2 {
     width: 236px;
     height: 96px;
+    margin: 0;
+    padding: 0;
     position: absolute;
     top: 67px;
     left: 332px;
@@ -44,5 +46,4 @@ body {
         "WONK" 0;
     line-height: 32px;
     }
-    
     
