@@ -23,36 +23,28 @@ body {
     top: 32px;
     left: 332px;
     padding: 0;
-    margin: 32px;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: black;
     width: 237px;
     height: 386px;
 }
 
 .head1{
-    margin: 0px;
-    padding-bottom: 20px;
+    margin: 0;
     color: black;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat";
+    src: url(url(fonts/static/Montserrat-Medium.ttf));
     font-weight: 500;
     font-size: 12px;
     letter-spacing: 5px;
     line-height: 15px;
+}
 
 .head2 {
-    width: 236px;
-    height: 96px;
-    position: absolute;
-    top: 67px;
-    left: 332px;
+    margin: 0;
     color: rgb(28, 35, 43);
     font-family: "Fraunces", system-ui;
     font-size: 32px;
     font-weight: 700;
-    font-style: light;
-    font-variation-settings:
+    font-style: normal;
         "SOFT" 0,
         "WONK" 0;
     line-height: 32px;
